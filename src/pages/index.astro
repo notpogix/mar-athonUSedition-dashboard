@@ -1,0 +1,26 @@
+---
+const stats = { followers: 0, subs: 0, bits: 0, uptimeSeconds: 0, day: 1 };
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Marlon Marathon Tracker</title>
+  </head>
+  <body style="background:black;color:white;font-family:sans-serif;">
+    <header style="padding:1rem;display:flex;justify-content:space-between;">
+      <div>MADE BY 0POGIX</div>
+      <div>LIVE — Day {stats.day} of 28</div>
+    </header>
+
+    <main style="padding:1rem;">
+      <h1>Marlon is streaming 24/7</h1>
+      <div style="margin-top:1rem;">
+        <p>Followers gained: {stats.followers}</p>
+        <p>Subs during marathon: {stats.subs}</p>
+        <p>Bits gifted: {stats.bits}</p>
+        <p>Stream uptime: {stats.uptimeSeconds}s</p>
+      </div>
+    </main>
+  </body>
+</html>
